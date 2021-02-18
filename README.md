@@ -3,6 +3,7 @@
 # Burger-Logger
 - My  Github Repo: https://github.com/lhaodev/burger_tracker
 - Burger-Logger Deployed Link: https://peaceful-cove-42636.herokuapp.com/
+- Updated portfolio page: https://lhaodev.github.io/homework2/portfolio.html
 
 # Description:
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
