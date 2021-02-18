@@ -46,15 +46,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const createBtn = document.getElementById('create-form');
 
     if (createBtn) {
+        console.log("hello");
+
         createBtn.addEventListener('submit', (e) => {
             e.preventDefault();
+
 
             // Grabs the value of the textarea that goes by the name, "quote"
             const newBurger = {
                 burger_name: document.getElementById('ca').value.trim(),
                 devoured: document.getElementById('devoured').checked,
-            };
 
+            };
+            console.log(newBurger)
             // Send POST request to create a new quote
             fetch('/api/burgers', {
                 method: 'POST',
@@ -96,4 +100,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
     //         });
     //     });
     // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

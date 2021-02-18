@@ -70,6 +70,7 @@ const orm = {
             }
 
             cb(result);
+            console.log(result);
         });
     },
 

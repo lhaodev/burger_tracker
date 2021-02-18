@@ -10,6 +10,7 @@ const burger = {
     //     orm.insertOne('burgers', cols, vals, (res) => cb(res));
     // },
     insertOne(objColVals, condition, cb) {
+        console.log(objColVals)
         orm.insertOne('burgers', objColVals, condition, (res) => cb(res));
     },
     updateOne(objColVals, condition, cb) {
